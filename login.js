@@ -1,8 +1,14 @@
+const logo = document.querySelector(".logo");
+
 const signUp = document.querySelector(".sign-up");
 const signIn = document.querySelector(".sign-in");
 const loginForm = document.querySelector(".loginForm");
 const signUpForm = document.querySelector(".sign-up-form");
 const signInForm = document.querySelector(".sign-in-form");
+
+logo.addEventListener('click', ()=>{
+    window.location.href = 'index.html';
+})
 
 signUp.addEventListener("click", function() {
     signUpForm.style.display = 'block';

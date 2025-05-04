@@ -27,10 +27,14 @@
      align-items: center;
  }
  
- .logo {
-     font-size: 1.5rem;
-     font-weight: bold;
- }
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor:pointer;
+}
+.logo:hover{
+    color:#929fb270;
+}
  
  .navigator a {
      color: white;

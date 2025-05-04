@@ -1,9 +1,14 @@
+const logo = document.querySelector('.logo');
 const imageFile = document.querySelector('.imageFile');
 const studentId = document.querySelector('.studentId');
 const submitButton = document.querySelector('.submitButton');
 const profile = document.querySelector('.profile');
 const message = document.querySelector('.submit-message');
 
+
+logo.addEventListener('click', ()=>{
+    window.location.href = 'index.html';
+})
 imageFile.addEventListener('change', (event) => {
     const file = event.target.files[0]; 
     if (file && file.type.startsWith('image/')) {

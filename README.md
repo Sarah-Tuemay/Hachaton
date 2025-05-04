@@ -14,7 +14,7 @@ Many students face challenges when searching for part-time jobs that fit their a
   - Event assistance 🎉
 - **Gain Experience**: Students not only earn income but also gain valuable work experience that enhances their resumes. 🚀
 
-## Benefits of Uniquest 🌈
+## Benefits of Uniquest ⚡️
 
 ### For Students:
 - **Flexible Work Options**: Find jobs that fit around your class schedule. ⏰

@@ -123,9 +123,11 @@
                   const jobContainer = document.querySelector('.jobs-container');
                   
                   const jobDesc = document.querySelector('.jobDesc');
+            
                   submitButton.addEventListener('click', ()=>{
+                      jobDesc.innerText = "Your Response has been Recorded!";
                     jobDesc.style.display = 'none';
-                    jobContainer.innerHTML = `<h2>Your Response has been Recorded!</h2>
+                    jobContainer.innerHTML = `
                        <p> Thank you for applying for the Network Administrator position. We appreciate your interest in joining our team.
 
                         You will be contacted shortly regarding the next steps in the application process.

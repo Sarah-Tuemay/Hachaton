@@ -82,8 +82,8 @@
                     <label for="email">Email:</label><br>
                     <input type="email" id="email" name="email" required><br><br>
                     <label for="resume">Resume:</label><br>
-                    <input type="file" id="resume" name="resume" accept=".png,.pdf,.doc,.docx" required><br><br>
-                    <input type="submit" value="Submit Application">
+                    <input type="file" id="resume" name="resume" accept=".png,.pdf,.doc,.docx,.jpeg,.jpg" required><br><br>
+                    <input type="submit" value="Submit Application" class="submitButton">
                 </form>
                 <br>
             
@@ -120,6 +120,18 @@
                     logo.addEventListener('click', ()=>{
                           window.location.href = 'index.html';
 })
+                  const submitButton = document.querySelector('.submitButton');
+                  const jobContainer = document.querySelector('.jobs-container');
+                  submitButton.addEventListener('click', ()=>{
+                    jobContainer.innerHTML = `<h2>Your Response has been Recorded!</h2>
+                       <p> Thank you for applying for the Network Administrator position. We appreciate your interest in joining our team.
+
+                        You will be contacted shortly regarding the next steps in the application process.
+                        </p>`
+
+                  })
+
+
                 </script>
         </body>
 </html>

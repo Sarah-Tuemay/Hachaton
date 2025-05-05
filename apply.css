@@ -93,6 +93,8 @@ h2{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 20px 0; 
+    margin-left:10%;
+    margin-right:10%;
 }
 .jobs-container h2 {
     font-size: 2.5rem;

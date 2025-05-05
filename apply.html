@@ -29,12 +29,12 @@
 
         </section>
 
-             <h2>Job Discription</h2>
-            <br>
+  
 
 
         <section class="jobs-container">
- 
+            <h2 class="jobDesc"> Job Discription</h2>
+            <br>
             <div class="job-card">
                 <h3>Network Administrator</h3>
                 <p><b>Position:</b> Network Administrator</p>
@@ -121,7 +121,10 @@
 })
                   const submitButton = document.querySelector('.submitButton');
                   const jobContainer = document.querySelector('.jobs-container');
+                  
+                  const jobDesc = document.querySelector('.jobDesc');
                   submitButton.addEventListener('click', ()=>{
+                    jobDesc.style.display = 'none';
                     jobContainer.innerHTML = `<h2>Your Response has been Recorded!</h2>
                        <p> Thank you for applying for the Network Administrator position. We appreciate your interest in joining our team.
 
